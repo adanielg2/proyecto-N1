@@ -1,0 +1,126 @@
+/* joaquin */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* Aqui comienza el desarrolllo del navbar */
+  header {
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.82); 
+    box-shadow: var(--shd, 0 0 10px rgba(0, 0, 0, .5));
+  }
+  .navbar-content {
+    width: 80%;
+  }
+  .img-navbar-brand {
+    width: 70px;
+  }
+  .navbar-form {
+    border-radius: 0;
+    border: none;
+    background-color: white;
+  }
+  .navbar-button {
+    border: solid 1px white;
+    border-radius: 0;
+    background-color: black;
+    padding: 7px;
+  }
+  .navbar-button:hover {
+    background-color: rgb(71, 70, 70);
+  }
+  .search-icon {
+    width: 25px;
+  }
+  /* Fin de CSS de navbar  */
+  
+  /* Aqui comienza CCS del modal del newsletter */
+  .modal-header{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .modal-header-text{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: xx-large;
+    letter-spacing: 0.5vw;
+  }
+  .button-close-modal{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  .modal-body{
+    background-color: #EFEDEF;
+  }
+  .submit-button-newsletters{
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+  }
+
+ 
+  .contact-header-img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    filter: brightness(50%);
+   
+  }
+  .contact-header {
+    position: relative;
+    color: white;
+    width: 100%;
+  }
+  .text-contact-header {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 7vw;
+    letter-spacing: 0.5vw;
+  }
+/* joaquin */
+
+.Proyectos{
+    /* width: 100%; */
+    /* height: 800px; */
+    /* background-color:  #ece5ec;   */
+    /* position: relative;   */
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+.Proyectos-card-group{
+    display: grid;
+    
+}
+.Proyectos-card{
+    background-color: #F0E9D8;
+}
+
+.Poryectos-Imagenes{
+    background-color: #F0E9D8;
+}
+.Proyectos-card:hover{
+    transform: scale(0.98);
+}
+.Poryectos-Imagenes a:hover{
+    transform: scale(0.98);
+   
+}
+.Poryectos-Imagenes
+.Proyecto-pubicidad{
+    height: 200px;
+    width: 200px;
+}
+.Proyectos-titulo-publicidad{
+  color: white;
+    background-color:black;
+    margin-top: 210px;
+}
